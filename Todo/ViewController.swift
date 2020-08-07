@@ -20,7 +20,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         table.delegate = self
         table.dataSource = self
-        callback?()
         tasks.append("teste")
         // Do any additional setup after loading the view.
     }
