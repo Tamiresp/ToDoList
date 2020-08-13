@@ -16,7 +16,6 @@ class InsertViewController: UIViewController, UITextFieldDelegate {
     
     var tasks = [String]()
 
-    var callback: (() -> Void)?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,11 +34,6 @@ class InsertViewController: UIViewController, UITextFieldDelegate {
     
     @objc func saveTask() {
         alert()
-//        let view = ViewController(nibName: "ViewController", bundle: nil)
-//        view.callback = { [weak self] in
-//            self?.alert()
-//        }
-       
     }
     
     func add() {
